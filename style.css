@@ -1,0 +1,136 @@
+body{
+background-color:rgb(218, 123, 137);
+margin: 0px;
+
+}
+header{
+    background-color: #e098bf;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=247c04538d36c90d80c69512a8657f2a-5875954-images-thumbs&ref=rim&n=33&w=480&h=299);
+
+}
+.flowers{
+   
+    background-color: rgb(255, 208, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    width: 410px;
+    height: 410px;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 20px;
+}
+.two{
+    width: 410px;
+    height: 410px;
+    background-color: rgb(226, 43, 110);
+    margin: 20px;
+    border-radius: 20px;
+}
+.three{
+    width: 410px;
+    height: 410px;
+    background-color: rgb(226, 217, 43);
+    margin: 20px;
+    border-radius: 20px;
+}
+.column{
+    display: inline-block;
+}
+.txt{
+    text-align: center;
+    background-color: aliceblue;
+    margin: 20px;
+    box-shadow: 0 0 5px 10px rgb(240, 159, 159);
+    border-radius: 20px;
+    
+}
+.label{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+  
+}
+input{
+    
+  width: 300px;
+  font-size: 13px;
+  padding: 6px 0 4px 10px;
+  border: 1px solid #cecece;
+  background: #F6F6f6;
+  border-radius: 8px;
+  margin: 5px;
+}
+h1{
+    text-align: center;
+    margin: 0px;
+}
+.menu:hover{
+    background-color: #f77979;
+    
+}
+.menu:active{
+    background-color: rgb(227, 132, 227);
+    
+}
+.menu{
+    font-family:OCR A Std, monospace ;
+}
+.img{
+    background-size: cover;
+    background-image: url(https://bipbap.ru/wp-content/uploads/2021/09/1618531665_41-oir_mobi-p-tsveti-lyubimoi-zhenshchine-krasivie-tsvet-43.jpg);
+}
+.img2{
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/closeup-of-bouquet-made-of-white-and-pink-peonies_8353-1732.jpg?t=st=1669886545~exp=1669887145~hmac=3fefd398bc222526a043c3974527e7bbee92f002e821c82274ddbec957a6b1fe);
+}
+.img3{
+    background-size: cover;
+    background-image: url(https://bipbap.ru/wp-content/uploads/2021/09/1617770688_2-p-oboi-samie-krasivie-tsveti-dlya-devushki-2.jpg);
+}
+.img4{
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/an-elegant-bouquet-of-pink-and-purple-flowers-with-decorative-green-leaves_114579-1429.jpg?w=1380&t=st=1669886889~exp=1669887489~hmac=04886eac7ea504c35ad45feb1d0b9274ab9d1e56eeab1f50b5ea4fe79a0657ad);
+}
+.img5{
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-wedding-bouquet-of-roses_24837-420.jpg?w=1380&t=st=1669886551~exp=1669887151~hmac=7323cd1e1da72a3465554d1fc9165c2d9336feb5b2fed4ce2694f3755a6236a3);
+}
+.img6{
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/dried-flower-bouquet-with-grasses-in-pink-round-hat-box-in-hands_161301-3187.jpg?w=1380);
+}
+.img7{
+    background-size: cover;
+    background-image: url(https://static.bukedo.ru/img/crop/680x680/product/2020/06/19/3hkw48ipv4evldvj.jpg);
+}
+.img8{
+    background-size: cover;
+    background-image: url(https://venusinfleurs.ru/image/catalog/izomod/3998/rozovyy-miks-iz-101-tyulpana-v-korobke_3.jpg)
+}
+.img9{
+    background-size: cover;
+    background-image: url(http://klublady.ru/uploads/posts/2022-02/1645083918_1-klublady-ru-p-buket-iz-klubniki-v-shokolade-foto-2.jpg);
+}
+
+h1::after{
+   content: "\1F33A";
+}
+p{
+    font-family: 'Inspiration', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Silkscreen', cursive;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
