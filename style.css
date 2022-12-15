@@ -1,32 +1,288 @@
 body{
-background-color:rgb(218, 123, 137);
+background-color:rgb(255, 255, 255);
 margin: 0px;
-background-image: url(https://avatars.mds.yandex.net/i?id=247c04538d36c90d80c69512a8657f2a-5875954-images-thumbs&ref=rim&n=33&w=480&h=299);
+width: 100%;
+/* background-image: url(https://avatars.mds.yandex.net/i?id=247c04538d36c90d80c69512a8657f2a-5875954-images-thumbs&ref=rim&n=33&w=480&h=299); */
 
 }
 header{
 
     width: 100%;
     height: 70px;
-    background: white;
+    background: rgb(245, 180, 180);
     box-shadow: 3px 3px 1px rgba(0, 0, 0, .05);
     padding: 15px 0;
     margin-bottom: 30px;
-    position: fixed;
+    position: absolute;
+    margin: 0%;
     
 }
+.zar{
+    font-size: 40px;
+    display: flex;
+      justify-content: center;
+      
+      margin: 0%;
+  }
+
+.first_block{
+    width: 100%;
+    height:1500px ;
+    background-color:rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.st1{
+    font-family: 'Inspiration', cursive;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Silkscreen', cursive;
+    font-size: 100px;
+}
+a{
+    color: #EF5a42;
+    text-decoration: none;
+}
+
+.txt1{
+    border-radius: 15px;
+    box-shadow: 0 0 100px 100px rgb(218, 123, 137);
+    height: 500px;
+    width: 800px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space{
+    width: 100%;
+    height:300px ;
+    background-color: #ffffff;
+
+}
+.second_block{
+    width: 100%;
+    height:1500px ;
+    background-color:rgb(255, 255, 255);
+   
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.upblock{
+    
+    height: 500px;
+    width: 2900px;
+    background-size:cover;
+    background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1649736114_6-vsegda-pomnim-com-p-fon-s-tsvetami-foto-6.jpg);
+}
+.text{
+   
+    height: 400px;
+    width: 800px;
+    background-color:transparent;
+   text-align: center;
+   
+
+}
+.cen{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t{
+    font-family: 'Inspiration', cursive;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+}
+.downblock{
+    
+ 
+    background-size:cover;
+    background-image: url(https://img.freepik.com/free-photo/close-up-hands-holding-flowers-bouquet_23-2149053843.jpg?w=2000&t=st=1670697803~exp=1670698403~hmac=002a32c337f80a5d69a8b6b6dc44cf08717e699ceb0055192a15d30614dec727);
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+.downblock2{
+top: 2700px;
+left: 900px;
+
+background-size:cover;
+background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1649744492_37-vsegda-pomnim-com-p-buket-tsvetov-foto-37.jpg);
+background-color: rgb(242, 165, 165);
+width: 500px;
+height: 500px;
+margin: 20px;
+}
+
+
+.space{
+    width: 100%;
+    height:300px ;
+    background-color: #ffffff;
+
+
+}
+.third_block{
+    width: 100%;
+    height:1500px ;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fon{
+    background-image: url(https://img.freepik.com/free-photo/florist-with-flowers-woman-makes-a-bouquet_1157-47338.jpg?w=2000&t=st=1670700454~exp=1670701054~hmac=24c1c989a0446bdf84cf726bb7b100cfddbb86f230799bd030285af83d890e41);
+    height: 1000px;
+    width: 1500px;
+    box-shadow: 0 0 100px 30px rgb(218, 123, 137);
+}
+.obz{
+    font-family: 'Inspiration', cursive;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+}
+.fon2{
+    background-color: #fff;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    right: 1900px;
+    top: 4100px;
+    box-shadow: 0 0 100px 30px rgb(218, 123, 137);
+}
+.space{
+    width: 100%;
+    height:300px ;
+    background-color: #ffffff;
+
+
+}
+.fourth_block{
+    width: 100%;
+    height:1500px ;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flovers {
+    
+height: 500px;
+width: 500px;
+margin: 20px;
+}
+.fl1{
+    background-image: url(https://mykaleidoscope.ru/uploads/posts/2020-08/1596422656_23-p-buketi-na-den-rozhdeniya-rebenku-instagram-39.jpg);
+background-size: cover;
+}
+.fl2{
+    background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1650403106_102-vsegda-pomnim-com-p-buket-shikarnii-foto-104.jpg);
+    background-size: cover;
+}
+
+.fl3{
+    background-image: url(https://sportishka.com/uploads/posts/2022-08/1660732110_22-sportishka-com-p-buket-roz-v-mashine-krasivo-foto-24.jpg);
+    background-size: cover;
+}
+.texts{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.te{
+    color:rgb(18, 13, 17);
+    font-family: 'Inspiration', cursive;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Silkscreen', cursive;
+    font-size: 25px;
+    
+    
+}
+.space{
+    width: 100%;
+    height:300px ;
+    background-color: #ffffff;
+
+
+}
+.fifth_block{
+    width: 100%;
+    height:1500px ;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flovers_text{
+   
+    position: absolute;
+    top: 7200px;
+    height: 100px;
+    width: 2900px;
+    background-size:cover;
+    background-color:rgba(218, 123, 137, 0.61);
+}
+.a2{
+    color: #000000;
+    font-family: 'Inspiration', cursive;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Silkscreen', cursive;
+    font-size: 65px;
+
+}
+.flov{
+   
+    border-radius: 15px;
+    box-shadow: 0 0 100px 20px rgb(218, 123, 137);
+    width: 700px;
+    height: 350px;
+    background-color: #fff;
+    margin: 80px;
+}
+.a1::before{
+    content: "\2705";
+}
+.a1{
+    position: relative;
+    top: 100px;
+    
+    color:rgb(18, 13, 17);
+    font-family: 'Inspiration', cursive;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Silkscreen', cursive;
+    font-size: 55px;
+}
+.flov2{
+    border-radius: 15px;
+    box-shadow: 0 0 100px 20px rgb(218, 123, 137);
+    width: 700px;
+    height: 350px;
+    background-color: #fff;
+    margin: 80px;
+}
 .start{
-    width: 1500px; 
-    height: 700px;
+    width: 100%; 
+    height: 1200px;
     background-color: rgba(231, 109, 109, 0.664);
-    display: block;
-    margin-left: 25%;
-    border-radius: 10%; 
+    /* display: block; */
+    /* margin-left: 25%;
+    border-radius: 10%;  */
     display: flex;
     justify-content: center;
     align-items: center;
     
-}
+} 
 
 .des1{
     background-image: url(/img/качество.png);
@@ -42,8 +298,8 @@ header{
 }
 .description{
     background-color: #ffffffa6;
-    height: 350px;
-    width: 350px;
+    height: 550px;
+    width: 550px;
     margin: 20px;
 
 }
@@ -64,34 +320,34 @@ width: 100px;
 }
 
 .flowers{
-    border-radius: 10%;
+    /* border-radius: 10%;
     height: 1900px;
     width: 1500px;
     margin-left: 25%;
-    background-color: rgba(0, 0, 0, 0.664);
+    background-color: rgba(231, 109, 109, 0.664); */
     display: flex;
     justify-content: center;
     align-items: center;
     /* position:static; */
 }
 .one{
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     background-color: rgba(137, 43, 226, 0);
     margin: 20px;
     border-radius: 20px;
     
 }
 .two{
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     background-color: rgba(226, 43, 110, 0);
     margin: 20px;
     border-radius: 20px;
 }
 .three{
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     background-color: rgba(93, 93, 88, 0);
     margin: 20px;
     border-radius: 20px;
@@ -126,48 +382,20 @@ h1{
     font-family: 'Libre Baskerville', serif;
     font-family: 'Merriweather', serif;
     font-family: 'Silkscreen', cursive;
-    /* font-family: 'Inspiration', cursive;
-    font-family: 'Merriweather', serif;
-    font-family: 'Silkscreen', cursive;
-    /* line-height:1px ; */  
+ 
 }
-h1::after{
-    content: "\1F337";
-}
+
+
 .menu1{
     height: 40px;
     width: 40px;
     border-radius: 25px;
 }
-#menu {
-    float: right;
-}
 
-#menu li {
-    display: inline-block;
-    margin-right: 5px;
-    
-}
-
-#menu a {
-    color: #111;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 800;
-    display: block;
-    transform: translate(-25em, 1em); 
-    text-decoration: none;
-    /* line-height: 40px; */
-}
 
 #menu a:hover {
     color: #EF5a42;
 }
-
-#menu li:last-child {
-    margin-right: 0px;
-}
-
 
 .img{
     background-size: cover;
@@ -214,10 +442,9 @@ h2{
 form{
     display: flex;
     justify-content: right;
-    position: absolute;
-    left: 2500px;
-    top: 25px;   
     margin: 0%;
+    margin-right: 50px;
+   margin-top: -50px;
     
 }
 p{
@@ -226,21 +453,25 @@ p{
     margin: 0px;
     font-family: serif;
 }
-
-footer{
-   
-}
-p{
-    text-align: center;
-}
 .media{
     width: 50px;
     height: 50px;
 }
 
+footer{
+   width: 500px;
+}
+p{
+    text-align: center;
+}
+/* .media{
+    width: 50px;
+    height: 50px;
+} */
+
 /* @media (min-width:1000px) {
     .column{
-        width: calc((50% - 10px)/3);
+        width: calc((50% - 100px)/3);
         
     }
     .one{
