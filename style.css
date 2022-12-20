@@ -13,7 +13,7 @@ header{
     box-shadow: 3px 3px 1px rgba(0, 0, 0, .05);
     padding: 15px 0;
     margin-bottom: 30px;
-    position: absolute;
+    position: fixed;
     margin: 0%;
     
 }
@@ -82,7 +82,7 @@ a{
 }
 .text{
    
-    height: 400px;
+    height: 500px;
     width: 800px;
     background-color:transparent;
    text-align: center;
@@ -105,19 +105,27 @@ a{
  
     background-size:cover;
     background-image: url(https://img.freepik.com/free-photo/close-up-hands-holding-flowers-bouquet_23-2149053843.jpg?w=2000&t=st=1670697803~exp=1670698403~hmac=002a32c337f80a5d69a8b6b6dc44cf08717e699ceb0055192a15d30614dec727);
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     margin: 20px;
 }
+
+.downblock:hover{
+    box-shadow: 0 0 0 30px rgb(242, 165, 165);
+
+}
+.downblock2:hover{
+    box-shadow: 0 0 0 30px rgb(242, 165, 165);
+
+}
 .downblock2{
-top: 2700px;
-left: 900px;
+
 
 background-size:cover;
 background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1649744492_37-vsegda-pomnim-com-p-buket-tsvetov-foto-37.jpg);
 background-color: rgb(242, 165, 165);
-width: 500px;
-height: 500px;
+width: 700px;
+height: 700px;
 margin: 20px;
 }
 
@@ -176,8 +184,8 @@ margin: 20px;
 }
 .flovers {
     
-height: 500px;
-width: 500px;
+height: 600px;
+width: 600px;
 margin: 20px;
 }
 .fl1{
@@ -285,23 +293,26 @@ background-size: cover;
 } 
 
 .des1{
-    background-image: url(/img/качество.png);
+    background-image: url(https://img.icons8.com/dotty/512/trademark.png);
     background-size: cover;
 }
 .des2{
-    background-image: url(/img/доставка.png);
+    background-image: url(https://lamobi.ru/image/258500.png);
     background-size: cover;
 }
 .des3{
-    background-image: url(/img/знак.png);
+    background-image: url(https://kursach.by/images/galochka6.png);
     background-size: cover;
 }
 .description{
-    background-color: #ffffffa6;
+    background-color: transparent;
     height: 550px;
     width: 550px;
     margin: 20px;
 
+}
+.description:hover{
+    background-color: #EF5a42;
 }
 .korzina{
     display: flex;
@@ -399,39 +410,66 @@ h1{
 
 .img{
     background-size: cover;
-    background-image: url(/img/букет1.webp);
+    background-image: url(https://img.freepik.com/free-photo/close-up-hand-holding-beautiful-flowers_23-2149053838.jpg?w=1480&t=st=1671550469~exp=1671551069~hmac=94a573ada4926fd66aaa60e0c5e5568e84cb5a0ff53b3fa62e6126f48a1ca6cchttps://img.freepik.com/free-photo/close-up-hand-holding-beautiful-flowers_23-2149053838.jpg?w=1480&t=st=1671550469~exp=1671551069~hmac=94a573ada4926fd66aaa60e0c5e5568e84cb5a0ff53b3fa62e6126f48a1ca6cc);
 }
+.img:hover{
+    filter: blur(5px);
+}
+
 .img2{
     background-size: cover;
-    background-image: url(/img/букет2.jpeg);
+    background-image: url(https://img.freepik.com/free-photo/a-woman-holds-in-her-hand-a-festive-flower-arrangement-with-bright-chrysanthemum-flowers-a-festive-bouquet_169016-15340.jpg?w=1480&t=st=1671550284~exp=1671550884~hmac=d1146bbddb17bcf995dcb4874d29c6a1b923a3de7e66c6d25f574919216aa9b7);
+}
+.img2:hover{
+    filter: blur(5px);
 }
 .img3{
     background-size: cover;
-    background-image: url(/img/букет3.webp);
+    background-image: url(https://img.freepik.com/free-photo/beautiful-wedding-bouquet-of-roses_24837-420.jpg?w=1480&t=st=1671550562~exp=1671551162~hmac=15b89ba3f7c3592ce80fdf03970d14b63b104ea2e7a31e7b66b5396fd95904f6);
+}
+.img3:hover{
+    filter: blur(5px);
 }
 .img4{
     background-size: cover;
-    background-image: url(/img/букет4.webp);
+    background-image: url(https://img.freepik.com/free-photo/close-up-of-a-large-festive-bouquet-with-chrysanthemum-flowers_169016-15351.jpg?w=740&t=st=1671550583~exp=1671551183~hmac=a0386741c1cc3c6596f534e3c3fa4e278aa646775726a531f075bb0741e97b90);
+}
+.img4:hover{
+    filter: blur(5px);
 }
 .img5{
     background-size: cover;
-    background-image: url(/img/букет5.jpeg);
+    background-image: url(https://img.freepik.com/free-photo/an-elegant-bouquet-of-pink-and-purple-flowers-with-decorative-green-leaves_114579-1429.jpg?w=1380&t=st=1671550628~exp=1671551228~hmac=7409166dd98eea49488df6b5c59601b73041a2925ef1816f2f44267b38b3a413);
+}.img5:hover{
+    filter: blur(5px);
 }
 .img6{
     background-size: cover;
-    background-image: url(/img/букет6.webp);
+    background-image: url(https://img.freepik.com/premium-photo/hand-holding-wedding-bouquet_23-2148105898.jpg?w=1480);
+}
+.img6:hover{
+    filter: blur(5px);
 }
 .img7{
     background-size: cover;
-    background-image: url(/img/букет7.webp);
+    background-image: url(https://img.freepik.com/premium-photo/flowers_23-2148134381.jpg?w=1480);
+}
+.img7:hover{
+    filter: blur(5px);
 }
 .img8{
     background-size: cover;
-    background-image: url(/img/букет8.webp)
+    background-image: url(https://img.freepik.com/premium-photo/wedding-flowers-bridal-bouquet-closeup_194236-28.jpg?w=1480)
+}
+.img8:hover{
+    filter: blur(5px);
 }
 .img9{
     background-size: cover;
-    background-image: url(/img/букет9.jpeg);
+    background-image: url(https://img.freepik.com/free-photo/close-up-hands-holding-flowers-bouquet_23-2149053878.jpg?w=1480&t=st=1671550741~exp=1671551341~hmac=0e68beaa815ba713b1b01ce42bd7d7488c272b97a07dee7aa3712d04fda64691);
+}
+.img9:hover{
+    filter: blur(5px);
 }
 h2{
     font-family: 'Inspiration', cursive;
@@ -457,21 +495,28 @@ p{
     width: 50px;
     height: 50px;
 }
+.foo{
+text-align: center;
 
+}
 footer{
-   width: 500px;
+   width: 100%;
+  
+
 }
 p{
     text-align: center;
+    font-size: 30px;
 }
-/* .media{
+
+.media{
     width: 50px;
     height: 50px;
-} */
+} 
 
-/* @media (min-width:1000px) {
+/* @media (min-width:900px) {
     .column{
-        width: calc((50% - 100px)/3);
+        width: calc((50% - 410px)/3);
         
     }
     .one{
